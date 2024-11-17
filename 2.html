@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фіксована Таблична Верстка - Варіант 2</title>
+    <title>Гумова Таблична Верстка - Варіант 2</title>
     <style>
         table {
-            width: 600px;
+            width: 50%; 
             height: 400px;
             border-collapse: separate; 
             border-spacing: 5px;
@@ -16,6 +16,8 @@
             text-align: center;
             vertical-align: middle; 
             position: relative;
+            box-sizing: border-box; 
+            padding: 0;
         }
         .header {
             height: 50px;
@@ -28,33 +30,40 @@
             background-color: white;
             position: absolute;
             top: 50%;
-            left: 10px;
+            left: 10px; 
             transform: translateY(-50%); 
         }
         .menu {
-            width: 100px;
             background-color: blue;
+            width: 20%; 
         }
         .top {
             height: 50px;
             background-color: red;
+            width: 80%; 
+            margin: 5px; 
         }
         .content {
             background-color: white;
+            width: 70%; 
+            margin: 5px; 
+            
         }
         .sidebar {
-            width: 100px;
-            background-color: blue;
+            background-color: blue; 
+            width: 30%; 
+            margin: 5px; 
         }
         .footer {
             background-color: yellow;
             height: 50px;
+            margin: 5px; 
         }
     </style>
 </head>
 <body>
 
-<h2>Фіксована Таблична Верстка - Варіант 2</h2>
+<h2>Гумова Таблична Верстка - Варіант 2</h2>
 <p><a href="index.html">Перейти до фіксованої табличної верстки</a></p> 
 <p><a href="2.html">Перейти до гумової табличної верстки</a></p> 
 <p><a href="3.html">Перейти до фіксованої блокової верстки</a></p>

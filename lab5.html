@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu"></div>
+
+  <h1>Shipping Cost Calculator</h1>
+
+  <form id="shippingForm">
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    <br><br>
+
+    <label for="price">Price of Item (credits):</label>
+    <input type="number" id="price" name="price" required>
+    <br><br>
+
+    <label for="deliveryFee">Delivery Fee (credits):</label>
+    <input type="number" id="deliveryFee" name="deliveryFee" required>
+    <br><br>
+
+    <button type="submit">Calculate</button>
+  </form>
+
+  <h2 id="shippingResultMessage"></h2> 
+
+  <h1>Transaction Form</h1>
+  <form id="transactionForm">
+    <label for="quantity">Quantity of Droids:</label>
+    <input type="number" id="quantity" name="quantity" required>
+    <br><br>
+
+    <label for="pricePerDroid">Price per Droid (credits):</label>
+    <input type="number" id="pricePerDroid" name="pricePerDroid" required>
+    <br><br>
+
+    <label for="customerCredits">Customer Credits (credits):</label>
+    <input type="number" id="customerCredits" name="customerCredits" required>
+    <br><br>
+
+    <button type="submit">Make Transaction</button>
+  </form>
+
+  <p id="transactionResultMessage"></p> 
+
+  <h1>Make Array Example</h1>
+  <!-- Form for input -->
+  <form id="arrayForm1">
+    <label for="firstArray">First Array:</label>
+    <input type="text" id="firstArray" name="firstArray" placeholder="e.g. 1,2,3" required>
+    <br><br>
+
+    <label for="secondArray">Second Array:</label>
+    <input type="text" id="secondArray" name="secondArray" placeholder="e.g. 4,5,6" required>
+    <br><br>
+
+    <label for="maxLength">Max Length:</label>
+    <input type="number" id="maxLength" name="maxLength" required>
+    <br><br>
+
+    <button type="submit">Generate Array</button>
+  </form>
+
+  <h3>Result:</h3>
+  <p id="arrayForm1Result"></p> 
+
+  <h1>Array Operations</h1>
+  <h2>Enter Array Size</h2>
+  <form id="arrayForm2">
+    <label for="arraySize">Array Size:</label>
+    <input type="number" id="arraySize" name="arraySize" required>
+    <br><br>
+
+    <button type="submit">Generate Array</button>
+  </form>
+
+  <h3>Result:</h3>
+  <p id="arrayForm2Result"></p> 
+
+  <script src="scripts.js"></script>
+</body>
+</html>

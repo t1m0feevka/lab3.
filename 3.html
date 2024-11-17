@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 400px;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+
+        .header {
+            background-color: yellow;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .left {
+            background-color: blue;
+            text-align: center;
+            float: left;
+            width: 20%;
+            height: 300px;
+        }
+
+        .right-top {
+            background-color: red;
+            text-align: center;
+            width: 70%;
+            height: 50px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .right-bottom {
+            text-align: center;
+            background-color: red;
+            width: 35%;
+            height: 50px;
+            margin-left: 100px;
+            margin-bottom: 10px;
+        }
+
+        .center {
+            background-color: rgb(189, 187, 187);
+            text-align: center;
+            width: 35%;
+            height: 160px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .block4 {
+            background-color: blue;
+            text-align: center;
+            float: right;
+            width: 32%;
+            height: 210px;
+            margin-top: -160px;
+            margin-right: 20px;
+        }
+
+        .footer {
+            background-color: yellow;
+            height: 50px;
+            clear: both;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Фіксована Блокова Верстка - Варіант 3</h2>
+<p><a href="index.html">Перейти до фіксованої табличної верстки</a></p> 
+<p><a href="2.html">Перейти до гумової табличної верстки</a></p> 
+<p><a href="3.html">Перейти до фіксованої блокової верстки</a></p>
+<p><a href="4.html">Перейти до гумової блокової верстки</a></p>  
+    <div class="container">
+        <div class="header">1</div>
+        <div class="left">2</div>
+        <div class="right-top"></div>
+        <div class="center">3</div>
+        <div class="block4">4</div>
+        <div class="right-bottom"></div>
+        <div class="footer">5</div>
+    </div>
+</body>
+</html>
