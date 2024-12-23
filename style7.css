@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+  .task {
+    background-color: #d4f0d4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  .task h2 {
+    margin-top: 0;
+  }
+  .swap-inputs input {
+    margin-right: 10px;
+  }
+  .resizable-div {
+    display: inline-block;
+    border: 1px dashed red;
+    margin: 10px 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;
+  }
+  #boxes div {
+    margin: 5px;
+  }
